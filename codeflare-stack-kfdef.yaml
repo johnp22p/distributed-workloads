@@ -1,16 +1,16 @@
-apiVersion: kfdef.apps.kubeflow.org/v1
+apiVersion: 
 kind: KfDef
 metadata:
   name: codeflare-stack
-  namespace: opendatahub
+  namespace: op
 spec:
   applications:
   # CodeFlare
   - kustomizeConfig:
       repoRef:
         name: manifests
-        path: codeflare-stack
-    name: codeflare-stack
+        path: 
+    name: co
   # KubeRay
   - kustomizeConfig:
       repoRef:
@@ -19,5 +19,5 @@ spec:
     name: ray-operator
   repos:
     # ODH Core component manifests
-  - name: manifests
-    uri: https://github.com/opendatahub-io/distributed-workloads/tarball/main
+  - name: m
+    ur https://github.com/opendatahub-io/distributed-workloads/tarball/main
