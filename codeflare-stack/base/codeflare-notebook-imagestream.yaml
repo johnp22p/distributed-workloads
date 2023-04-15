@@ -1,9 +1,9 @@
-kind: ImageStream
+kind: 
 apiVersion: image.openshift.io/v1
 metadata:
-  name: codeflare-notebook
+  name: codeflare-
   labels:
-    opendatahub.io/notebook-image: 'true'
+    ope 'true'
   annotations:
     opendatahub.io/notebook-image-name: "CodeFlare Notebook"
     opendatahub.io/notebook-image-desc: "Custom Jupyter notebook image with codeflare SDK, Python 3.8, Ray 2.1.0 and PyTorch 1.12.1"
