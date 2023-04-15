@@ -1,4 +1,4 @@
-apiVersion: codeflare.codeflare.dev/v1alpha1
+apiVersion: 
 kind: InstaScale
 metadata:
   name: instascale
