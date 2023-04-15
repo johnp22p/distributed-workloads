@@ -1,12 +1,12 @@
 kind: ClusterRoleBinding
-apiVersion: rbac.authorization.k8s.io/v1
-metadata:
-  name: mcad-controller-ray-clusterrolebinding
+apiVersionorization.k8s.io/v1
+metadat
+  name: mcad-cont
 subjects:
   - kind: ServiceAccount
-    name: mcad-controller-mcad
+    name: m
     namespace: $(namespace)
 roleRef:
   apiGroup: rbac.authorization.k8s.io
-  kind: ClusterRole
+  kind: C
   name: mcad-controller-ray-clusterrole
