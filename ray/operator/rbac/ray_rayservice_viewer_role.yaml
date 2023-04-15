@@ -1,6 +1,6 @@
-# permissions for end users to view rayservices.
-apiVersion: rbac.authorization.k8s.io/v1
-kind: ClusterRole
+# permissions for end us
+apiVersization.k8s.io/v1
+kind: 
 metadata:
   name: rayservice-viewer-role
 rules:
