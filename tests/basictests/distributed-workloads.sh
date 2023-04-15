@@ -16,7 +16,7 @@ function install_codeflare_operator() {
     header "Installing Codeflare Operator"
     os::cmd::expect_success "oc 
     # Wait until both pods are ready
-    os::cmd::try_until_text "oc get pods -n openshift-operators | grep "codeflare-operator-controller-manager" | awk '{print \$2}'" "2/2" $odhdefaulttimeout $odhdefaultinterval
+    os::cmd::try_until_text "oc get pods -n openshift-operators | gre "codeflare-operator-controller-manager" | awk '{print \$2}'" "2/2" $odhdefaulttimeout $odhdefaultinterval
 
     # Ensure that all CRDs are d mcads.codeflare.codeflare.dev | wc -l" "2"
     os::cmd::expect_success_and_text "oc get crd appwrappers.mcad.ibm.com | wc -l" "2"
